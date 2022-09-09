@@ -1,10 +1,4 @@
-* {
-  box-sizing:border-box;
-}
 
-html {
-  height:100vh;
-}
 
 body {
   height:100vh;
@@ -23,12 +17,8 @@ article {
   flex-direction:column;
   align-items:center;
   justify-content:flex-end;
-  background: rgb(237, 208, 220);
-  background: diagonal-gradient(0deg, rgb(244, 179, 202) 40%, #4e54c8 100%);
-  box-shadow:0 0 20px 20px rgba(0,0,0,.1);
-  border-radius:1rem;
+  background: rgb(241, 151, 189);
   position: relative;
-  transition:.25s;
 }
 
 header {
@@ -69,7 +59,7 @@ img {
 article > p {
   padding:3rem 2rem;
   margin-top: 0;
-  background:rgba(255,255,255, 0.5);
+  background:rgb(255, 255, 255);
   text-align:center;
   border-radius: 0 0 1rem 1rem;
   width:100%;

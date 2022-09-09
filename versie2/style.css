@@ -1,0 +1,68 @@
+div{
+    width: 400px;
+    height: 720px;
+    margin: 0 auto;
+    position: relative;
+    
+    background-color: rgb(253, 221, 237);
+    border-style: solid;
+    border-width: 20px;
+    border-top-width:90px;
+    border-bottom-width:90px;
+    border-radius: 50px;
+    border-color:rgb(212, 3, 108);
+}
+img{
+    width: 145px;
+    height: 145px;
+    object-fit: cover;
+    object-position:-80% 0;
+
+    position:absolute; 
+    left: 4%; 
+    top: 5%;
+
+    border-radius:100px ;
+    border-style: solid;
+    border-width: 7px;
+    border-color: rgb(233, 56, 144);
+}
+
+h1{
+    text-align:right;
+    font-size:40px;
+    position:absolute; 
+    right: 8%; 
+    top: 2%
+}
+.material-symbols-outlined{
+    color: white;
+    width: 70px;
+    font-size: 40px !important;
+    background-color:rgb(233, 56, 144);
+    border-radius: 15px;
+    padding-left: 15px;
+    width: 55px;
+    position: absolute;
+    top: 21%;
+    left: 50%;
+}
+
+#iconphone{
+    left: 75%;
+}
+
+ul{
+    list-style-type: none;
+    position: absolute;
+    top: 28%;
+    left: -5%;
+    font-size: 20px;
+    font-weight: -100;
+    line-height: 35px;
+}
+
+.text{
+    color:rgb(233, 56, 144);
+    font-family: 'Lobster Two', cursive;
+}
