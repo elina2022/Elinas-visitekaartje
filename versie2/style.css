@@ -1,0 +1,134 @@
+/* 233, 56, 144 */
+div{
+    width: 400px;
+    height: 720px;
+    margin: 0 auto;
+    position: relative;
+    
+    background-color: rgb(255, 224, 240);
+    border-style: solid;
+    border-width: 20px;
+    border-top-width:90px;
+    border-bottom-width:90px;
+    border-radius: 50px;
+    border-color:rgb(212, 3, 108);
+}
+#pf{
+    width: 145px;
+    height: 145px;
+    object-fit: cover;
+    object-position:-80% 0;
+
+    position:absolute; 
+    left: 4%; 
+    top: 5%;
+
+    border-radius:100px ;
+    border-style: solid;
+    border-width: 7px;
+    border-color: rgb(212, 3, 108);
+}
+
+h1{
+    font-family: 'Lobster', cursive;
+    color:rgb(212, 3, 108);
+    text-align:right;
+    font-size:40px;
+    position:absolute; 
+    right: 8%; 
+    top: 2%
+}
+.material-symbols-outlined{
+    color:rgb(255, 255, 255);    
+    width: 70px;
+    font-size: 40px !important;
+    background-color:rgb(212, 3, 108);
+    border-radius: 15px;
+    padding-left: 15px;
+    width: 55px;
+    position: absolute;
+    top: 21%;
+    left: 50%;
+}
+
+#iconphone{left: 75%;}
+
+ul{
+    list-style-type: none;
+    position: absolute;
+    top: 28%;
+    left: -5%;
+    font-size: 20px;
+    font-weight: -100;
+    line-height: 35px;
+    color:rgb(212, 3, 108);
+    font-family: 'Oleo Script';
+    letter-spacing: 0.3px;
+}
+
+#stars{font-size: 23px;}
+
+#favorite{
+    line-height: 65px;
+    border-radius: 150px;
+    top: 51.5%;
+
+    margin-left: -175px;
+}
+
+#construction{
+    line-height: 65px;
+    border-radius: 150px;
+    top: 51.5%;
+
+    margin-left: -82px;
+}
+
+#volunteer{
+    line-height: 65px;
+    border-radius: 150px;
+    top: 51.5%;
+
+    margin-left: 10px;
+}
+
+#checklist{
+    line-height: 65px;
+    border-radius: 150px;
+    top: 51.5%;
+
+    margin-left: 100px;
+}
+
+#f1, #f2, #f3, #f4, #f5, #f6{
+    width: 130.6px;
+    position: absolute;
+    top: 63.2%;
+    border-style: solid;
+    border-width: 4px;
+    border-color: rgb(212, 3, 108);
+}
+
+#f4, #f5, #f6{
+    top: 82%;
+}
+
+#f2, #f5{
+    left: 32.8%;
+}
+
+#f3, #f6{
+    right: 0%;
+}
+
+#f4, #f5, #f6{
+    border-bottom: none;
+}
+
+#f1, #f4{
+    border-left: none;
+} 
+
+#f3, #f6{
+    border-right: none;
+}
