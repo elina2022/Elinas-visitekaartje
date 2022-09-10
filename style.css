@@ -60,7 +60,7 @@ ul{
     left: -5%;
     font-size: 20px;
     font-weight: -100;
-    line-height: 35px;
+    line-height: 30px;
     color:rgb(212, 3, 108);
     font-family: 'Oleo Script';
     letter-spacing: 0.3px;
@@ -71,7 +71,7 @@ ul{
 #favorite{
     line-height: 65px;
     border-radius: 150px;
-    top: 51.5%;
+    top: 50.5%;
 
     margin-left: -175px;
 }
@@ -79,7 +79,7 @@ ul{
 #construction{
     line-height: 65px;
     border-radius: 150px;
-    top: 51.5%;
+    top: 50.5%;
 
     margin-left: -82px;
 }
@@ -87,7 +87,7 @@ ul{
 #volunteer{
     line-height: 65px;
     border-radius: 150px;
-    top: 51.5%;
+    top: 50.5%;
 
     margin-left: 10px;
 }
@@ -95,7 +95,7 @@ ul{
 #checklist{
     line-height: 65px;
     border-radius: 150px;
-    top: 51.5%;
+    top: 50.5%;
 
     margin-left: 100px;
 }
@@ -131,4 +131,34 @@ ul{
 
 #f3, #f6{
     border-right: none;
+}
+
+#oval{
+    width: 100px;
+    height: 10px;
+    background-color: rgb(255, 224, 240);
+    border-radius: 50px;
+    position: absolute;
+    top: -10%;
+    left: 35%;
+    
+}
+#circle{
+    width: 10px;
+    height: 10px;
+    background-color: rgb(255, 224, 240);
+    border-radius: 50px;
+    position: absolute;
+    top: -14%;
+    left: 46.5%;
+}
+
+#circle2{
+    width: 50px;
+    height: 50px;
+    background-color: rgb(255, 224, 240);
+    border-radius: 50px;
+    position: absolute;
+    top: 99.5%;
+    left: 43%;
 }
