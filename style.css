@@ -41,38 +41,30 @@ h1{
 }
 .material-symbols-outlined{
     color:rgb(255, 255, 255);    
-    /* width: 70px; */
     font-size: 40px !important;
     background-color:rgb(212, 3, 108);
     border-radius: 15px;
     border-width: 2.5px;
     border-color: rgb(212, 3, 108);
     border-style: inset;
-    
-    /* padding-left: 9px; */
     width: 60px;
-    /* position: relative; */
-    /* top: 21%; */
-    /* left: 50%; */
 }
 
-/* #iconphone{left: 75%;} */
-
 #button, #button2{
-    color: transparent;
-    background-color: transparent;
-    border: transparent;
+    /* color: red; */
+    background-color: red;
+    border: red;
+    border-radius: 15px;
+    padding: 0;
     position: relative;
-    top: 21%;
-    left: 50%;
+    top: 17.7%;
+    left: 51%;
 }
 
 #button2{
-left: 54%;
+left: 59%;
 }
 
-
-    
 #button3, #button4, #button5, #button6{
     position: relative;
     top: 50%;
@@ -104,44 +96,35 @@ left: 54%;
     left: 27%;
 }
     
-  #favorite, #construction, #volunteer, #checklist{
-        line-height: 65px;
-        border-radius: 150px;
-        position: relative;
-        border: none;
-        text-align: center;
-        width: 65px;
-        height: 65px;
-        top: 38%;
-        border-style: inset;
-        border-color: rgb(212, 3, 108);
-    }
+#favorite, #construction, #volunteer, #checklist{
+    line-height: 65px;
+    border-radius: 150px;
+    position: relative;
+    border: none;
+    text-align: center;
+    width: 65px;
+    height: 65px;
+    top: 38%;
+    border-style: inset;
+    border-color: rgb(212, 3, 108);
+}
 
-    #favorite{
-        top: 48.7%;
-        left: -50%;
-    }
+#favorite{
+    top: 49%;
+    left: -45%;
+}
 
-    #construction{
-        left: 30%;
-    }
+#construction{
+    left: 30%;
+}
     
-    #volunteer{
-        left: 20%;
-    }
+#volunteer{
+    left: 19%;
+}
     
-    #checklist{
-        left: 10%;
-    }
-
-
-
-
-
-
-
-
-
+#checklist{
+    left: 7%;
+}
 
 ul{
     list-style-type: none;
@@ -159,11 +142,11 @@ ul{
 #stars{font-size: 23px;}
 
 #f1, #f2, #f3, #f4, #f5, #f6{
-    width: 130.6px;
+    width: 131px;
     position: absolute;
     top: 63.2%;
     border-style: solid;
-    border-width: 4px;
+    border-width: 4.5px;
     border-color: rgb(212, 3, 108);
 }
 
@@ -194,30 +177,39 @@ ul{
 
 #oval{
     width: 100px;
-    height: 10px;
+    height: 5px;
     background-color: rgb(255, 224, 240);
     border-radius: 50px;
     position: absolute;
     top: -10%;
     left: 35%;
-    
+    border-style: inset;
+    border-color: rgb(179, 0, 89);
+    border-width:5px;
+
 }
 #circle{
-    width: 10px;
-    height: 10px;
+    width: 7px;
+    height: 7px;
     background-color: rgb(255, 224, 240);
     border-radius: 50px;
     position: absolute;
     top: -14%;
     left: 46.5%;
+    border-style: inset;
+    border-color: rgb(179, 0, 89);
+    border-width:3px;
 }
 
 #circle2{
-    width: 50px;
-    height: 50px;
+    width: 47px;
+    height: 47px;
     background-color: rgb(255, 224, 240);
     border-radius: 50px;
     position: absolute;
-    top: 99.5%;
+    top: 99%;
     left: 43%;
+    border-style: inset;
+    border-color: rgb(179, 0, 89);
+    border-width: 5px;
 }
