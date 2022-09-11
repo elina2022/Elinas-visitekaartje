@@ -248,3 +248,43 @@ ul{
 #pf:hover{
     transform: scale(1.1)
 }
+
+#ac2{
+    position: relative;
+    top: 87.2%;
+    left: 44%;
+    background-color: rgb(255, 255, 255);
+    height: 50px;
+    width: 35px;
+    border-radius: 4px;
+    z-index: 2;
+    border-style: outset;
+    border-color: rgb(224, 224, 224);
+}
+
+#ac3{
+    position: relative;
+    top: 82%;
+    left: 46.5%;
+    background-color: rgb(231, 230, 230);
+    height: 50px;
+    width: 15px;
+    border-radius: 5px;
+    z-index: 1;
+    border-style: outset;
+    border-color: rgb(224, 224, 224);
+}
+
+#ac4{
+    position: relative;
+    top: 66%;
+    left: 48%;
+    background-color: rgb(231, 230, 230);
+    height: 650px;
+    width: 5px;
+    border-radius: 2px;
+    border-bottom-left-radius: 0px;
+    border-bottom-right-radius: 0px;
+    border-style: outset;
+    border-color: rgb(224, 224, 224);
+}

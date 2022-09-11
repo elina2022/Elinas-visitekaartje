@@ -1,0 +1,163 @@
+div{
+    width: 400px;
+    height: 720px;
+    margin: 0 auto;
+    position: relative;
+    
+    background-color: rgb(0, 0, 0);
+    border-style: solid;
+    border-width: 20px;
+    border-top-width:90px;
+    border-bottom-width:90px;
+    border-radius: 50px;
+    border-color:rgb(212, 3, 108);
+}
+
+#oval{
+    width: 100px;
+    height: 5px;
+    background-color: rgb(255, 224, 240);
+    border-radius: 50px;
+    position: absolute;
+    top: -10%;
+    left: 35%;
+    border-style: inset;
+    border-color: rgb(179, 0, 89);
+    border-width:5px;
+
+}
+#circle{
+    width: 7px;
+    height: 7px;
+    background-color: rgb(255, 224, 240);
+    border-radius: 50px;
+    position: absolute;
+    top: -14%;
+    left: 46.5%;
+    border-style: inset;
+    border-color: rgb(179, 0, 89);
+    border-width:3px;
+}
+
+#circle2{
+    width: 47px;
+    height: 47px;
+    background-color: rgb(255, 224, 240);
+    border-radius: 50px;
+    position: absolute;
+    top: 99%;
+    left: 43%;
+    border-style: inset;
+    border-color: rgb(179, 0, 89);
+    border-width: 5px;
+}
+
+#battery{
+    color: white;
+    font-size: 320px;
+    position: relative;
+    top: 25%;
+    left: 13%;
+    transform: rotateY(180deg);
+    z-index: 1;
+}
+
+#red{
+    position: relative;
+    background-color: rgb(253, 0, 127);
+    height: 100px;
+    width: 15px;
+    left: 26%;
+    top: -8%;
+}
+
+#line{
+    position: relative;
+    background-color: white;
+    height: 25px;
+    width: 6px;
+    left: 50%;
+    top: 30.7%;
+}
+
+#square{
+    position: relative;
+    background-color: white;
+    height: 40px;
+    width: 25px;
+    left: 47.5%;
+    top: 18.2%;
+    border-radius: 7%;
+}
+
+#emptysquare{
+    position: relative;
+    border-color: white;
+    border-style: solid;
+    border-width: 1.5px;
+    border-radius: 3px;
+    height: 30px;
+    width: 18px;
+    left: 48%;
+    top: 46px;
+}
+
+#bolt{
+    color: white;
+    font-size: 35px;
+    position: relative;
+    top: -8%;
+    left: 46.3%;
+}
+
+#ac1{
+    position: relative;
+    top: -70%;
+    left: -35%;
+    background-color: rgb(161, 157, 157);
+    border-radius: 5px;
+    height: 40px;
+    width: 28px;
+    border-style: outset;
+    border-color: rgb(224, 224, 224);
+}
+
+#ac2{
+    position: relative;
+    top: -75%;
+    left: -35.87%;
+    background-color: rgb(255, 255, 255);
+    height: 50px;
+    width: 35px;
+    border-radius: 4px;
+    z-index: 2;
+    border-style: outset;
+    border-color: rgb(224, 224, 224);
+}
+
+#ac3{
+    position: relative;
+    top: -80%;
+    left: -33.3%;
+    background-color: rgb(231, 230, 230);
+    height: 50px;
+    width: 15px;
+    border-radius: 5px;
+    z-index: 1;
+    border-style: outset;
+    border-color: rgb(224, 224, 224);
+}
+
+#ac4{
+    position: relative;
+    top: -90%;
+    left: -32%;
+    background-color: rgb(231, 230, 230);
+    height: 650px;
+    width: 5px;
+    border-radius: 2px;
+    border-bottom-left-radius: 0px;
+    border-bottom-right-radius: 0px;
+    border-style: outset;
+    border-color: rgb(224, 224, 224);
+}
