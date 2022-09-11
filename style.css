@@ -129,7 +129,7 @@ left: 59%;
 ul{
     list-style-type: none;
     position: absolute;
-    top: 28%;
+    top: 26%;
     left: -5%;
     font-size: 20px;
     font-weight: -100;
@@ -142,6 +142,8 @@ ul{
 #stars{font-size: 23px;}
 
 #f1, #f2, #f3, #f4, #f5, #f6{
+    /* max-width: 100%; */
+    /* box-sizing: border-box; */
     width: 131px;
     position: absolute;
     top: 63.2%;
@@ -212,4 +214,29 @@ ul{
     border-style: inset;
     border-color: rgb(179, 0, 89);
     border-width: 5px;
+}
+
+#battery, #wifi{
+    font-size: 35px !important;
+    position: absolute;
+    background-color: transparent;
+    border-style: none;
+    color: rgb(179, 0, 89);
+    top: 0%;
+    right: 2%;
+    transform: rotateY(180deg);
+}
+
+#wifi{
+    font-size: 25px !important;
+    top: 0.8%;
+    left: -6%;
+}
+
+.material-symbols-outlined{
+    transition: 0.1s;
+}
+
+.material-symbols-outlined:hover{
+    transform: scale(1.1);
 }
