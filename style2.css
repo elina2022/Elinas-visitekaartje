@@ -139,8 +139,6 @@ ul{
     letter-spacing: 0.3px;
 }
 
-#stars{font-size: 23px;}
-
 #f1, #f2, #f3, #f4, #f5, #f6{
     /* max-width: 100%; */
     /* box-sizing: border-box; */
@@ -203,17 +201,25 @@ ul{
     border-width:3px;
 }
 
-#circle2{
-    width: 47px;
-    height: 47px;
+#button7{
+    width: 53px;
+    height: 53px;
     background-color: rgb(255, 224, 240);
     border-radius: 50px;
     position: absolute;
-    top: 99%;
+    top: 103%;
     left: 43%;
     border-style: inset;
     border-color: rgb(179, 0, 89);
     border-width: 5px;
+}
+
+#button7{
+    transition: 0.1s;
+}
+
+#button7:hover{
+    transform: scale(0.95)
 }
 
 #battery, #wifi{
