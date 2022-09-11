@@ -234,9 +234,17 @@ ul{
 }
 
 .material-symbols-outlined{
-    transition: 0.1s;
+    transition: 0.3s;
 }
 
 .material-symbols-outlined:hover{
     transform: scale(1.1);
+}
+
+#pf{
+    transition: 0.4s;
+}
+
+#pf:hover{
+    transform: scale(1.1)
 }
