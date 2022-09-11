@@ -1,0 +1,290 @@
+div{
+    width: 400px;
+    height: 720px;
+    margin: 0 auto;
+    position: relative;
+    
+    background-color: rgb(225, 189, 255);
+    border-style: solid;
+    border-width: 20px;
+    border-top-width:90px;
+    border-bottom-width:90px;
+    border-radius: 50px;
+    border-color:rgb(75, 33, 109);
+}
+
+#pf{
+    width: 145px;
+    height: 145px;
+    object-fit: cover;
+    object-position:-80% 0;
+
+    position:absolute; 
+    left: 4%; 
+    top: 5%;
+
+    border-radius:100px ;
+    border-style: solid;
+    border-width: 7px;
+    border-color: rgb(75, 33, 109);
+    border-style: inset;
+}
+
+h1{
+    font-family: 'Lobster', cursive;
+    color:rgb(75, 33, 109);
+    text-align:right;
+    font-size:40px;
+    position:absolute; 
+    right: 8%; 
+    top: 2%
+}
+.material-symbols-outlined{
+    color:rgb(255, 255, 255);    
+    font-size: 40px !important;
+    background-color:rgb(75, 33, 109);
+    border-radius: 15px;
+    border-width: 2.5px;
+    border-color: rgb(75, 33, 109);
+    border-style: inset;
+    width: 60px;
+}
+
+#button, #button2{
+    /* color: red; */
+    background-color: transparent;
+    border: transparent;
+    border-radius: 15px;
+    padding: 0;
+    position: relative;
+    top: 17.7%;
+    left: 51%;
+}
+
+#button2{
+left: 59%;
+}
+
+#button3, #button4, #button5, #button6{
+    position: relative;
+    top: 50%;
+    height: 65px;
+    width: 65px;
+    border-radius: 100px;
+    border: transparent;
+    background-color: transparent;
+    z-index: 1;
+}
+
+#button3{
+    top: 50.5%;
+    left: -33%;
+}
+
+#button4{
+    top: 50.8%;
+    right: 45%;
+}
+
+#button5{
+    top: 39.7%;
+    left: 37%;
+}
+
+#button6{
+    top: 39.7%;
+    left: 27%;
+}
+    
+#favorite, #construction, #volunteer, #checklist{
+    line-height: 65px;
+    border-radius: 150px;
+    position: relative;
+    border: none;
+    text-align: center;
+    width: 65px;
+    height: 65px;
+    top: 38%;
+    border-style: inset;
+    border-color: rgb(75, 33, 109);
+}
+
+#favorite{
+    top: 49%;
+    left: -45%;
+}
+
+#construction{
+    left: 30%;
+}
+    
+#volunteer{
+    left: 19%;
+}
+    
+#checklist{
+    left: 7%;
+}
+
+ul{
+    list-style-type: none;
+    position: absolute;
+    top: 26%;
+    left: -5%;
+    font-size: 20px;
+    font-weight: -100;
+    line-height: 30px;
+    color:rgb(75, 33, 109);
+    font-family: 'Oleo Script';
+    letter-spacing: 0.3px;
+}
+
+#f1, #f2, #f3, #f4, #f5, #f6{
+    width: 131px;
+    position: absolute;
+    top: 63.2%;
+    border-style: solid;
+    border-width: 4.5px;
+    border-color: rgb(75, 33, 109);
+}
+
+#f2{
+    object-position: 0 -40;
+}
+
+#f4, #f5, #f6{
+    top: 82%;
+}
+
+#f2, #f5{
+    left: 33%;
+}
+
+#f3, #f6{
+    right: 0%;
+}
+
+#f4, #f5, #f6{
+    border-bottom: none;
+}
+
+#f1, #f4{
+    border-left: none;
+    left: 0%;
+} 
+
+#f3, #f6{
+    border-right: none;
+}
+
+#oval{
+    width: 100px;
+    height: 5px;
+    background-color: rgb(225, 189, 255);
+    border-radius: 50px;
+    position: absolute;
+    top: -10%;
+    left: 35%;
+    border-style: inset;
+    border-color: rgb(52, 19, 78);
+    border-width:5px;
+
+}
+#circle{
+    width: 7px;
+    height: 7px;
+    background-color: rgb(225, 189, 255);
+    border-radius: 50px;
+    position: absolute;
+    top: -14%;
+    left: 46.5%;
+    border-style: inset;
+    border-color: rgb(52, 19, 78);
+    border-width:3px;
+}
+
+#button7{
+    width: 53px;
+    height: 53px;
+    background-color: rgb(225, 189, 255);
+    border-radius: 50px;
+    position: absolute;
+    top: 103%;
+    left: 43%;
+    border-style: inset;
+    border-color: rgb(52, 19, 78);
+    border-width: 5px;
+}
+
+#button7{
+    transition: 0.1s;
+}
+
+#button7:hover{
+    transform: scale(0.95)
+}
+
+#battery, #wifi{
+    font-size: 35px !important;
+    position: absolute;
+    background-color: transparent;
+    border-style: none;
+    color: rgb(75, 33, 109);
+    top: 0%;
+    right: 2%;
+    transform: rotateY(180deg);
+}
+
+#wifi{
+    font-size: 25px !important;
+    top: 0.8%;
+    left: -6%;
+}
+
+.material-symbols-outlined{
+    transition: 0.3s;
+}
+
+.material-symbols-outlined:hover{
+    transform: scale(1.1);
+}
+
+#ac2{
+    position: relative;
+    top: 87.2%;
+    left: 44%;
+    background-color: rgb(255, 255, 255);
+    height: 50px;
+    width: 35px;
+    border-radius: 4px;
+    z-index: 2;
+    border-style: outset;
+    border-color: rgb(224, 224, 224);
+}
+
+#ac3{
+    position: relative;
+    top: 82%;
+    left: 46.5%;
+    background-color: rgb(231, 230, 230);
+    height: 50px;
+    width: 15px;
+    border-radius: 5px;
+    z-index: 1;
+    border-style: outset;
+    border-color: rgb(224, 224, 224);
+}
+
+#ac4{
+    position: relative;
+    top: 66%;
+    left: 48%;
+    background-color: rgb(231, 230, 230);
+    height: 650px;
+    width: 5px;
+    border-radius: 2px;
+    border-bottom-left-radius: 0px;
+    border-bottom-right-radius: 0px;
+    border-style: outset;
+    border-color: rgb(224, 224, 224);
+}

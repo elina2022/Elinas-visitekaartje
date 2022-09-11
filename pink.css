@@ -52,8 +52,8 @@ h1{
 
 #button, #button2{
     /* color: red; */
-    background-color: red;
-    border: red;
+    background-color: transparent;
+    border: transparent;
     border-radius: 15px;
     padding: 0;
     position: relative;
@@ -245,14 +245,6 @@ ul{
 
 .material-symbols-outlined:hover{
     transform: scale(1.1);
-}
-
-#pf{
-    transition: 0.4s;
-}
-
-#pf:hover{
-    transform: scale(1.1)
 }
 
 #ac2{

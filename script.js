@@ -23,5 +23,5 @@ function test6(){
 }
 
 function test7(){
-    document.getElementById("changingtext").innerHTML = "18 years • Armenian ethnicity<br>1st year FDND<br>HTML, CSS and JavaScript ★☆☆☆☆<br><i>'watch a sunrise at least once a day'</i><br>Also... try clicking my face ;)";
+    document.getElementById("changingtext").innerHTML = "18 years • Armenian ethnicity<br>1st year FDND<br>HTML, CSS and JavaScript ★☆☆☆☆<br><i>'watch a sunrise at least once a day'</i><br>Also... try clicking the picture with color ;)";
 }
