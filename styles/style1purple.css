@@ -1,9 +1,9 @@
 :root {
-    --dark: rgb(231, 3, 91);
-    --light: rgb(253, 180, 207);
-    --border: rgb(196, 0, 75);
+    --dark: rgb(133, 0, 174);
+    --light: rgb(231, 151, 255);
+    --border: rgb(125, 0, 163);
     --icons: white;
-    --bg: rgb(255, 210, 227);
+    --bg: rgb(241, 193, 255);
     --chargerborder: rgb(179, 179, 179);
     --charger1: white;
     --charger2: rgb(231, 231, 231);
@@ -12,17 +12,18 @@
 
 @media (prefers-color-scheme: dark) {
     :root {
-        --dark: rgb(87, 0, 43);
-        --light: rgb(206, 79, 127);
-        --border: rgb(150, 0, 57);
-        --icons: rgb(255, 170, 203);
-        --bg: rgb(17, 0, 7);
+        --dark: rgb(61, 0, 79);
+        --light: rgb(219, 102, 255);
+        --border: rgb(111, 0, 145);
+        --icons: rgb(255, 255, 255);
+        --bg: rgb(27, 0, 36);
         --chargerborder: rgb(0, 0, 0);
         --charger1: rgb(7, 7, 7);
         --charger2: rgb(15, 15, 15);
         --chargermetalborder: rgb(125, 125, 125);
     }
 }
+
 
 body {
     background-color: var(--bg);
