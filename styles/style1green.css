@@ -1,9 +1,12 @@
 :root {
-    --dark: rgb(83, 135, 0);
-    --light: rgb(217, 255, 157);
-    --border: rgb(96, 156, 0);
+    --dark1: rgb(120, 174, 32);
+    --dark: rgb(72, 117, 0);
+    --dark3: rgb(59, 95, 0);
+    --light: rgb(203, 245, 134);
+    --border: rgb(91, 147, 0);
     --icons: white;
-    --bg: rgb(234, 255, 200);
+    --bg1: rgb(151, 204, 66);
+    --bg2: rgb(234, 255, 200);
     --chargerborder: rgb(179, 179, 179);
     --charger1: white;
     --charger2: rgb(231, 231, 231);
@@ -12,11 +15,14 @@
 
 @media (prefers-color-scheme: dark) {
     :root {
-        --dark: rgb(41, 67, 0);
+        --dark1: rgb(45, 70, 8);
+        --dark: rgb(31, 50, 0);
+        --dark3:rgb(12, 20, 0);
         --light: rgb(146, 189, 76);
-        --border: rgb(101, 138, 41);
-        --icons: rgb(255, 255, 255);
-        --bg: rgb(20, 33, 0);
+        --border: rgb(96, 134, 39);
+        --icons: rgb(219, 255, 161);
+        --bg1: rgb(7, 10, 0);
+        --bg2: rgb(45, 70, 8);
         --chargerborder: rgb(0, 0, 0);
         --charger1: rgb(7, 7, 7);
         --charger2: rgb(15, 15, 15);
@@ -24,9 +30,10 @@
     }
 }
 
-
 body {
-    background-color: var(--bg);
+    background-image: linear-gradient(var(--bg1), var(--bg2));
+    background-repeat: no-repeat;
+    background-attachment: fixed;
 }
 
 .container {
@@ -34,14 +41,15 @@ body {
     height: 720px;
     margin: 0 auto;
     position: relative;
-
-    background-color: black;
+    border-color: transparent;
     border-style: solid;
     border-width: 20px;
     border-top-width: 90px;
     border-bottom-width: 90px;
     border-radius: 50px;
-    border-color: var(--dark);
+    background: linear-gradient(black, black), linear-gradient(var(--dark1), var(--dark), var(--dark3));
+    background-clip: padding-box, border-box;
+    background-origin: border-box;
 }
 
 .shapes {

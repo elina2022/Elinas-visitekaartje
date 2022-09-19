@@ -1,29 +1,39 @@
 :root {
+    --dark1: rgb(189, 48, 233);
     --dark: rgb(133, 0, 174);
-    --light: rgb(231, 151, 255);
+    --dark3: rgb(121, 0, 158);
+    --light: rgb(241, 193, 255);
     --border: rgb(125, 0, 163);
     --icons: white;
-    --bg: rgb(241, 193, 255);
+    --bg1: rgb(217, 91, 255);
+    --bg2: rgb(239, 198, 252);
     --chargerborder: rgb(179, 179, 179);
     --charger1: white;
     --charger2: rgb(231, 231, 231);
+    --chargermetalborder: rgb(179, 179, 179);
 }
 
 @media (prefers-color-scheme: dark) {
     :root {
-        --dark: rgb(61, 0, 79);
+        --dark1: rgb(84, 0, 109);
+        --dark: rgb(58, 0, 76);
+        --dark3: rgb(23, 0, 31);
         --light: rgb(219, 102, 255);
-        --border: rgb(111, 0, 145);
-        --icons: rgb(234, 164, 255);
-        --bg: rgb(27, 0, 36);
+        --border: rgb(122, 0, 159);
+        --icons: rgb(240, 190, 255);
+        --bg1: rgb(11, 0, 15);
+        --bg2: rgb(84, 0, 109);
         --chargerborder: rgb(0, 0, 0);
         --charger1: rgb(7, 7, 7);
         --charger2: rgb(15, 15, 15);
+        --chargermetalborder: rgb(125, 125, 125);
     }
 }
 
 body {
-    background-color: var(--bg);
+    background-image: linear-gradient(var(--bg1), var(--bg2));
+    background-repeat: no-repeat;
+    background-attachment: fixed;
 }
 
 .container {
@@ -31,14 +41,15 @@ body {
     height: 720px;
     margin: 0 auto;
     position: relative;
-
-    background-color: var(--light);
+    border-color: transparent;
     border-style: solid;
     border-width: 20px;
     border-top-width: 90px;
     border-bottom-width: 90px;
     border-radius: 50px;
-    border-color: var(--dark);
+    background: linear-gradient(var(--light), var(--light)), linear-gradient(var(--dark1), var(--dark), var(--dark3));
+    background-clip: padding-box, border-box;
+    background-origin: border-box;
 }
 
 #pf {

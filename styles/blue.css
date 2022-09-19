@@ -1,29 +1,39 @@
 :root {
-    --dark: rgb(0, 70, 174);
-    --light: rgb(160, 198, 255);
+    --dark1: rgb(27, 106, 226);
+    --dark: rgb(0, 69, 172);
+    --dark3: rgb(0, 64, 159);
+    --light: rgb(175, 204, 255);
     --border: rgb(0, 64, 159);
     --icons: white;
-    --bg: rgb(212, 226, 248);
+    --bg1: rgb(109, 165, 255);
+    --bg2: rgb(212, 226, 248);
     --chargerborder: rgb(179, 179, 179);
     --charger1: white;
     --charger2: rgb(231, 231, 231);
+    --chargermetalborder: rgb(179, 179, 179);
 }
 
 @media (prefers-color-scheme: dark) {
     :root {
-        --dark: rgb(0, 45, 113);
+        --dark1: rgb(0, 51, 138);
+        --dark: rgb(0, 33, 83);
+        --dark3: rgb(0, 14, 38);
         --light: rgb(108, 167, 255);
-        --border: rgb(18, 79, 171);
-        --icons: rgb(181, 209, 255);
-        --bg: rgb(0, 21, 56);
+        --border: rgb(0, 60, 163);
+        --icons: rgb(201, 223, 255);
+        --bg1: rgb(0, 9, 24);
+        --bg2: rgb(0, 51, 138);
         --chargerborder: rgb(0, 0, 0);
         --charger1: rgb(7, 7, 7);
         --charger2: rgb(15, 15, 15);
+        --chargermetalborder: rgb(125, 125, 125);
     }
 }
 
 body {
-    background-color: var(--bg);
+    background-image: linear-gradient(var(--bg1), var(--bg2));
+    background-repeat: no-repeat;
+    background-attachment: fixed;
 }
 
 .container {
@@ -31,14 +41,15 @@ body {
     height: 720px;
     margin: 0 auto;
     position: relative;
-
-    background-color: var(--light);
+    border-color: transparent;
     border-style: solid;
     border-width: 20px;
     border-top-width: 90px;
     border-bottom-width: 90px;
     border-radius: 50px;
-    border-color: var(--dark);
+    background: linear-gradient(var(--light), var(--light)), linear-gradient(var(--dark1), var(--dark), var(--dark3));
+    background-clip: padding-box, border-box;
+    background-origin: border-box;
 }
 
 #pf {
