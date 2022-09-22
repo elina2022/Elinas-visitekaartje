@@ -30,6 +30,11 @@
     }
 }
 
+::selection{
+    color: var(--light);
+    background: var(--dark);
+}
+
 body {
     background-image: linear-gradient(var(--bg1), var(--bg2));
     background-repeat: no-repeat;
