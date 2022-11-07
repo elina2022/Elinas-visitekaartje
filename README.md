@@ -1,5 +1,5 @@
 # Titel
-Visitekaartje
+## Visitekaartje ##
 
 ## Beschrijving
 Dit is de repository van de eerste website die ik ooit heb gemaakt. Hierin vertel ik wat over mezelf zodat studiegenoten kennis kunnen maken met mij. Het design dat ik heb gekozen is gebaseerd op een telefoon waar de Instagram app geopend staat.
