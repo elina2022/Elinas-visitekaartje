@@ -1,3 +1,5 @@
-# Elina's visitekaartje
-https://learn.about.elina.student.fdnd.nl
-Dit is mijn visitekaartje 👍
+# Titel
+Visitekaartje
+
+## Beschrijving
+Dit is de repository van mijn visitekaartje.
